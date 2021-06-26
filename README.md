@@ -1,0 +1,1 @@
+This repository includes slides and materials for a talk titled "Microsimulation modeling with R: lessons learned from the development of hesim" presented at the 2021 R for Health Technology Assessment (HTA) showcase.
