@@ -1,1 +1,3 @@
-This repository includes slides and materials for a talk titled "Microsimulation modeling with R: lessons learned from the development of hesim" presented at the 2021 R for Health Technology Assessment (HTA) showcase.
+This repository includes slides and materials for a talk titled "Decision modeling with R: lessons learned from the development of hesim" presented at the 2021 R for Health Technology Assessment (HTA) showcase.
+
+The script `main.R` runs the analyses. Functions used to perform the analyses are contained in `functions.R` and `functions-vectorized.R`. The former contains code for looping at the `R` level while the latter contains modified vectorized versions. The vectorized code uses [`hesim`](https://hesim-dev.github.io/hesim/) 0.5.0 to construct the transition probability matrices and to simulate state probabilities. All other code is based on functions from base `R`. 
